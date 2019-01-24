@@ -66,12 +66,10 @@
 (comment
   (->> [100 200 200 200 200 200 200 200 200 200 200 300]
        (make-hist 10 1000 100)
-       (remove (comp zero? second))
        (draw-hist "Simple Log Test" true))
 
   (->> [100 200 200 300]
        (make-hist 10 1000 100)
-       (remove (comp zero? second))
        (draw-hist "Simple Linear Test" false))
 
   (->> #(apply + (repeatedly 100 rand))
@@ -85,4 +83,3 @@
        (concat (repeatedly 1000 #(rand-int 400)))
        (make-hist 10 100 100)
        (draw-hist "Gaussian-ish, log" true)))
-
