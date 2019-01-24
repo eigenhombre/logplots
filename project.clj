@@ -1,4 +1,4 @@
-(defproject logplots "0.0.1"
+(defproject eigenhombre/logplots "0.0.1"
   :description "Some Simple Graphing/Histogramming Things"
   :url "http://github.com/logplots"
   :license {:name "WTFPL"

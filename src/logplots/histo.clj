@@ -1,4 +1,4 @@
-(ns logplots.core
+(ns logplots.histo
   "
   Adapted from my blog post, http://johnj.com/nucleotide-repetition-lengths.html
   "
