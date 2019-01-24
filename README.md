@@ -18,8 +18,8 @@ This repo provides a more up-to-date version of that.
     (->> #(apply + (repeatedly 100 rand))
            (repeatedly 10000)
            (concat (repeatedly 1000 #(rand-int 400)))
-           (make-hist 10 100 100)
-           (draw-hist "Gaussian-ish, log" true))
+           (h/make-hist 10 100 100)
+           (h/draw-hist "Gaussian-ish, log" true))
 
 ![Example](doc/example.png)
 
