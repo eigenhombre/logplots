@@ -21,10 +21,10 @@ of things, and it amazes me that they're not more commonly used.
 
     (require '[logplots.histo :as h])
     (->> #(apply + (repeatedly 100 rand))
-           (repeatedly 10000)
-           (concat (repeatedly 1000 #(rand-int 400)))
-           (h/make-hist 10 100 100)
-           (h/draw-hist "Gaussian-ish, log" true))
+         (repeatedly 10000)
+         (concat (repeatedly 1000 #(rand-int 400)))
+         (h/make-hist 10 100 100)
+         (h/draw-hist "Gaussian-ish, log" true))
 
 ![Example](doc/example.png)
 
