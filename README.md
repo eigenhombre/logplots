@@ -1,12 +1,17 @@
-# tryhisto
+# logplots
 
-I wanted to make histograms, log scale preferred.
+I wanted to make histograms, log scale preferred[1].
 
 Why was it so hard?
 
 C.f. http://johnj.com/nucleotide-repetition-lengths.html
 
-This repo provides a more up-to-date version of that.
+This repo provides a more up-to-date version of that.  I'll probably
+add other graphing / plotting / histogramming things here as needed.
+
+[1] Logarithmic-scale histograms are extremely common in particle
+physics, which is where I cut my teeth. I still use them for all sorts
+of things, and it amazes me that they're not more commonly used.
 
 ## Coordinates
 
